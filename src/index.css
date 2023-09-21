@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@keyframes moveRandomly {
+    0% {
+      transform: translate(0, 0);
+    }
+    25% {
+      transform: translate(0rem, 10rem);
+    }
+    50% {
+      transform: translate(2rem, 30rem);
+    }
+    75% {
+      transform: translate(5rem, 50rem);
+    }
+    100% {
+      transform: translate(0, 100rem);
+    }
+  }
+  
+  .animate-logo {
+    animation: moveRandomly 5s infinite;
+  }
