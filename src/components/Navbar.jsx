@@ -12,16 +12,19 @@ function Navbar() {
     //scrollea al top cuando el usuario elije "inicio"
     const handleNavLink = (e) => {
         if (e.target.pathname == '/') {
+            console.log('doing scroll');
             window.scrollTo(0, 0)
         }
     }
 
     return (
         <header className={`${isNavOpen ? 'top-0 md:top-10 [&_nav_ul]:w-fit' : '-top-20 md:-top-16'} w-full fixed transition-all duration-1000 z-50 `}>
-            <nav className=''>
+            <nav>
                 <ul
                     className={`flex mx-auto rounded-[40px]  md:p-4 text-slate-300 justify-center 
-                 [&_li_a]:backdrop-blur-xl w-36 ${isNavOpen ? 'flex-wrap w-fit' : '[&>li>a]:hidden'}`}>
+                 [&_li_a]:backdrop-blur-xl w-36 ${isNavOpen ? 'flex-wrap w-fit' : '[&>li>a]:hidden'}
+                 [&_li_a]:text-xs [&_li_a]:sm:text-base [&_li_a]:p-1
+                 `}>
                     {sectionArray.map((item) => (
                         <li key={item.id}>
                             <Link to={item.route} className="btn" onClick={handleNavLink}>

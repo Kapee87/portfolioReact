@@ -15,14 +15,8 @@ function Layout() {
         const currentSectionItem = sectionArray.find(section => section.route == location.pathname);
         setCurrentSection(currentSectionItem.id);
     }, [location.pathname, setCurrentSection]);
-    useEffect(() => {
-        console.log(currentSection, sectionArray.length);
-    }, [currentSection])
-    const handleNextSection = () => {
-        // console.log(currentSection);
-        // console.log(sectionArray[currentSection]);
-        // navigate(sectionArray[currentSection].route)
 
+    const handleNextSection = () => {
         // Verifica si estás en la última sección
         if (currentSection == sectionArray.length) {
             // Si es la última sección, vuelve al principio
@@ -34,9 +28,6 @@ function Layout() {
         }
     }
     const handlePrevSection = () => {
-        console.log(sectionArray[currentSection - 1]);
-        // navigate(sectionArray[currentSection].route)
-
         // Verifica si estás en la última sección
         if (currentSection == 1) {
             // Si es la última sección, vuelve al principio

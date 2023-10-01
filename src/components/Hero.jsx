@@ -64,7 +64,7 @@ function Hero() {
             </div>
 
 
-            <div className="rounded-[40px] bg-indigo-600 bg-opacity-50 backdrop-blur-sm glass rotate-2 hover:-rotate-3 transition-transform duration-1000 shadow-2xl p-5 mt-24 sm:mt-8">
+            <div className="rounded-[40px] bg-indigo-600 bg-opacity-50 backdrop-blur-sm glass rotate-2 hover:-rotate-3 transition-transform duration-1000 shadow-2xl p-5 mt-20 sm:mt-8">
                 <div className="hero-content flex-col md:flex-row text-center text-indigo-100">
                     <div className="avatar">
                         <div className="max-w-xs w-36 sm:max-w-none sm:w-72 mask mask-squircle transition-opacity duration-1000">
