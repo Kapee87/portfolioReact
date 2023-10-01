@@ -17,21 +17,21 @@
         "id": "03",
         "name": "Curso de Inglés",
         "content": "Curso de Inglés general para desarrolladores de software del centro universitario de idiomas, bajo el marco común Europeo de referencia para las lenguas - MCER dentro del plan Argentina Programa 4.0 ",
-        "preview": "./src/assets/education-images/cui.png",
+        "preview": "https://images2.imgbox.com/ac/a6/4ZDi9QFq_o.png",
         "url": "https://api.cuiweb.edu.ar/certiprogra40/0020_00003287_01292025_1_0"
     },
     {
         "id": "04",
         "name": "Web Fullstack Junior",
         "content": "Curso #YoProgramo del trayecto formativo Perfil Web Fullstack Junior en el marco de Argentina Programa 4.0",
-        "preview": "./src/assets/education-images/apFullstack.png",
+        "preview": "https://images2.imgbox.com/75/67/ytfUSfbT_o.png",
         "url": "https://argentinaprograma.inti.gob.ar/mod/customcert/view.php?id=2748&downloadown=1"
     },
     {
         "id": "05",
         "name": "ONE Fullstack",
         "content": "Certificado de finalización del programa de ONE(Oracle Next Education)",
-        "preview": "./src/assets/education-images/oracleFull.png",
+        "preview": "https://images2.imgbox.com/29/57/dxdBKzOE_o.png",
         "url": "https://app.aluracursos.com/program/certificate/14bfcaf5-0d1b-4181-bd81-116a16f5f4fa"
     },
     {
@@ -45,28 +45,28 @@
         "id": "07",
         "name": "Formación Business Agility - ONE",
         "content": "Certificado de finalización de la formación de Business Agility",
-        "preview": "./src/assets/education-images/business_agility.png",
+        "preview": "https://images2.imgbox.com/9a/f9/bcYZXdsa_o.png",
         "url": "https://app.aluracursos.com/degree/certificate/b36f67fc-4808-4b92-8da3-b5b98a5d28c4"
     },
     {
         "id": "08",
         "name": "Formación Frontend - ONE",
         "content": "Certificado de finalización de la formación de desarrollo Frontend",
-        "preview": "./src/assets/education-images/formacion_Front.png",
+        "preview": "https://images2.imgbox.com/d4/f8/BMqnxiCf_o.png",
         "url": "https://app.aluracursos.com/degree/certificate/d71c3182-88fb-4d17-b2fa-aa8ec2f74bf2"
     },
     {
         "id": "09",
         "name": "Formación Emprendimiento - ONE",
         "content": "Certificado de finalización de la formación de emprendimiento",
-        "preview": "./src/assets/education-images/emprendimiento.png",
+        "preview": "https://images2.imgbox.com/95/4b/H66dmz3G_o.png",
         "url": "https://app.aluracursos.com/degree/certificate/fb9d805b-6dd9-4375-9a75-c3a0e85ed336"
     },
     {
         "id": "10",
         "name": "Formación Principiante en Programación - ONE",
         "content": "Certificado de finalización de la formación principiante en programación",
-        "preview": "./src/assets/education-images/principiante_programacion.png ",
+        "preview": "https://images2.imgbox.com/9e/01/h3Ab7LkS_o.png",
         "url": "https://app.aluracursos.com/degree/certificate/2025dd27-438d-4ef8-8aa8-6423fc369360"
     },
     {
@@ -80,7 +80,21 @@
         "id": "12",
         "name": "Responsive Web Design",
         "content": "Curso de Responsive Web Design, certificado por freeCodeCamp, en el que desarrollé varios proyectos de práctica.",
-        "preview": "./src/assets/education-images/Responsive web design.PNG",
+        "preview": "https://images2.imgbox.com/df/15/baUU1w3z_o.png",
+        "url": "https://www.freecodecamp.org/certification/fcc329b40c2-c83b-484b-bd28-5fb0266cec07/responsive-web-design"
+    },
+    {
+        "id": "14",
+        "name": "Lean Startup",
+        "content": "Curso de soft skills de Oracle Next Education, método eficaz para convertir una idea de negocio en empresa.",
+        "preview": "https://images2.imgbox.com/02/cf/uyMshalo_o.jpg",
+        "url": "https://www.freecodecamp.org/certification/fcc329b40c2-c83b-484b-bd28-5fb0266cec07/responsive-web-design"
+    },
+    {
+        "id": "15",
+        "name": "Lógica de programación",
+        "content": "Curso de Oracle Next Education, fundamentos o primeros pasos en la programación.",
+        "preview": "https://images2.imgbox.com/33/b9/VI4y0iTE_o.jpg",
         "url": "https://www.freecodecamp.org/certification/fcc329b40c2-c83b-484b-bd28-5fb0266cec07/responsive-web-design"
     },
     {
