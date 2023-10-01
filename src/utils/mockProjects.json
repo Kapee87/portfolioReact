@@ -10,7 +10,7 @@
         "id": "02",
         "name": "ADN Web Solutions",
         "content": "Web oficial en proceso para Comunidad/Cooperativa/Startup de Devs para desarrollar webs en equipo y conseguir experiencia, del cual formo parte y pude colaborar en el desarrollo de su Website.",
-        "preview": "./src/assets/projects/adn.png",
+        "preview": "https://images2.imgbox.com/ae/1b/3Hwjif9B_o.png",
         "url": "https://adnwebsolutions.github.io/ADN-Solutions/"
     },
     {
@@ -31,7 +31,7 @@
         "id": "05",
         "name": "Amazing Events",
         "content": "Práctica para el curso de Frontend de Mindhub a través de Argentina Programa 4.0",
-        "preview": "./src/assets/projects/amazing.png",
+        "preview": "https://imgbox.com/oFfszXXJ",
         "url": "https://kapee87.github.io/AmazingEvents_Montaner/"
     },
     {
@@ -59,7 +59,7 @@
         "id": "09",
         "name": "Buscador de películas - Alkeflix",
         "content": "Práctica para el skill up de Alkemy",
-        "preview": "./src/assets/projects/Alkeflix.png",
+        "preview": "https://imgbox.com/f9ErW4Fo",
         "url": "https://alkeflix-react.netlify.app"
     },
     {
