@@ -11,6 +11,7 @@ function Navbar() {
     }
     //scrollea al top cuando el usuario elije "inicio"
     const handleNavLink = (e) => {
+        console.log(e.target.pathname);
         if (e.target.pathname == '/') {
             console.log('doing scroll');
             window.scrollTo(0, 0)
