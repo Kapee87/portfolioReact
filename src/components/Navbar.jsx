@@ -24,6 +24,11 @@ function Navbar() {
                             </Link>
                         </li>
                     ))}
+                    <li>
+                        <a href="#footer" className='btn'>
+                            Contacto
+                        </a>
+                    </li>
                     {
                         isNavOpen
                             ?
