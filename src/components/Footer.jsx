@@ -13,7 +13,9 @@ function Footer() {
             </aside>
             <nav>
                 <header className="footer-title">Social</header>
-                <div className="flex gap-4 items-center [&_a:hover]:scale-110">
+                <div className="flex gap-4 items-center 
+                [&_a:hover]:scale-110 [&_a]:group
+                [&_a_p]:hidden [&_a_p]:group [&_a_p:group-hover]:flex ">
                     <GhubSvg />
                     <LinkedinSvg />
                     <MailSvg />

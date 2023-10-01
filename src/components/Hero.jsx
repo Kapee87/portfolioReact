@@ -1,18 +1,22 @@
 import React, { useEffect, useState } from 'react'
-import miPic from '../assets/perfilLinkedin.jpg'
 import AboutBtn from './hero-micro-components/AboutBtn'
 import { skills } from '../utils/skillsArray.json'
+import { profileArray } from '../assets/profileArray';
 
 function Hero() {
 
     const [currentIndex, setCurrentIndex] = useState(0);
+
+    // useEffect(() => {
+    //     console.log(currentIndex % 5);
+    // }, [currentIndex])
 
     useEffect(() => {
         const interval = setInterval(() => {
             // Avanzar al siguiente logo
             setCurrentIndex((prevIndex) =>
                 prevIndex === skills.length - 1 ? 0 : prevIndex + 1
-            );
+            )
         }, 2000); // Cambia cada 2 segundos (ajusta el valor según tus necesidades)
 
         return () => {
@@ -22,70 +26,66 @@ function Hero() {
     const duplicatedLogos = [...skills, ...skills, ...skills]
 
     return (
-        <div className="hero min-h-screen bg-hero-background items-start md:items-center" >
-            <div className="hero-overlay bg-opacity-60 h-screen w-screen  bg-black">
-                {/* {
-                    skills.map((skill) => (
-                        <img src={skill.url} alt={skill.name} className='animate-logo inline-block m-5' />
-                    ))
-                } */}
-
-                <div className="flex items-center h-screen overflow-hidden flex-col justify-end md:justify-between py-5">
-                    {/* Renderiza los logos */}
-                    <div
-                        className="hidden md:flex transition-transform duration-500 ease-in-out"
-                        style={{
-                            transform: `translateX(+${currentIndex * (30 / skills.length)}%)`,
-                            width: `${duplicatedLogos.length * (100 / skills.length)}%`,
-                        }}
-                    >
-                        {duplicatedLogos.map((skill, index) => (
-                            <img
-                                key={(Math.random() * index).toString(36).substring(2, 10)}
-                                src={skill.url}
-                                alt={skill.name}
-                                className="mx-2 w-full"
-                            />
-                        ))}
-                    </div>
-                    <div
-                        className="flex transition-transform duration-500 ease-in-out"
-                        style={{
-                            transform: `translateX(-${currentIndex * (100 / skills.length)}%)`,
-                            width: `${duplicatedLogos.length * (100 / skills.length)}%`,
-                        }}
-                    >
-                        {duplicatedLogos.map((skill, index) => (
-                            <img
-                                key={(Math.random() * index).toString(36).substring(2, 10)}
-                                src={skill.url}
-                                alt={skill.name}
-                                className="mx-2 w-full"
-                            />
-                        ))}
-                    </div>
+        <section className="hero min-h-screen items-start md:items-center overflow-hidden" >
+            <div className="flex items-center h-screen overflow-hidden flex-col justify-end md:justify-between py-5">
+                {/* Renderiza los logos */}
+                <div
+                    className="hidden md:flex transition-transform duration-500 ease-in-out"
+                    style={{
+                        transform: `translateX(+${currentIndex * (30 / skills.length)}%)`,
+                        width: `${duplicatedLogos.length * (100 / skills.length)}%`,
+                    }}
+                >
+                    {duplicatedLogos.map((skill, index) => (
+                        <img
+                            key={(Math.random() * index).toString(36).substring(2, 10)}
+                            src={skill.url}
+                            alt={skill.name}
+                            className="mx-2 w-full"
+                        />
+                    ))}
                 </div>
-
+                <div
+                    className="flex transition-transform duration-500 ease-in-out"
+                    style={{
+                        transform: `translateX(-${currentIndex * (100 / skills.length)}%)`,
+                        width: `${duplicatedLogos.length * (100 / skills.length)}%`,
+                    }}
+                >
+                    {duplicatedLogos.map((skill, index) => (
+                        <img
+                            key={(Math.random() * index).toString(36).substring(2, 10)}
+                            src={skill.url}
+                            alt={skill.name}
+                            className="mx-2 w-full"
+                        />
+                    ))}
+                </div>
             </div>
-            <div className="rounded-[40px] bg-indigo-600 bg-opacity-50 backdrop-blur-sm glass rotate-2 hover:-rotate-3 transition-transform duration-1000 shadow-2xl">
+
+
+            <div className="rounded-[40px] bg-indigo-600 bg-opacity-50 backdrop-blur-sm glass rotate-2 hover:-rotate-3 transition-transform duration-1000 shadow-2xl p-5 mt-24 sm:mt-8">
                 <div className="hero-content flex-col md:flex-row text-center text-indigo-100">
                     <div className="avatar">
-                        <div className="max-w-xs w-44 sm:max-w-none sm:w-72 mask mask-squircle">
-                            <img src={miPic} />
+                        <div className="max-w-xs w-36 sm:max-w-none sm:w-72 mask mask-squircle transition-opacity duration-1000">
+                            <img
+                                src={profileArray[currentIndex % 6]}
+                                className={`opacity-${100 - currentIndex * (100 / skills.length)}`}
+                            />
                         </div>
                     </div>
                     <div className="max-w-md">
-                        <h1 className="mb-5 text-5xl font-bold">Hola!, soy Nahuel</h1>
-                        <p className='border-b-2'>Desarrollador web Fullstack MERN</p>
-                        <p className="mb-5">
-                            Amante de la vida, y de muchísimas cosas, entre las que enumero: familia, música, fútbol, tecnología(hoy en día no nos podemos limitar a las computadoras), cerveza, y mucho más
+                        <h1 className="mb-1 md:mb-5 text-3xl md:text-5xl font-bold border-b-2 border-[#641AE6]">¡Hola!, soy Nahuel.</h1>
+
+                        <p className="mb-2 md:mb-5 text-sm md:text-lg">
+                            Desarrollador fullstack MERN y otras yerbas, Hombre de familia, Estudiante de la vida, Músico & Productor, Guardia de Seguridad, Delivery, Mister Simpatía, Gamer noob semi manco, Tomador de mate serial en rehabilitación por problemas de acidez, Team player, pero por sobre todas las cosas, buena persona.
                         </p>
 
                         <AboutBtn />
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
     )
 }
 

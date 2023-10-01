@@ -1,0 +1,72 @@
+[
+    {
+        "id": "01",
+        "name": "MyTinerary",
+        "content": "Este proyecto, desarrollado como parte del curso de Fullstack MERN en MindHub a través de Argentina Programa 4.0, es una aplicación web que te permite explorar itinerarios de actividades para hacer en diversas ciudades.",
+        "preview": "https://user-images.githubusercontent.com/89433307/271701351-026cd981-3287-46e4-b0df-3ee4cf94113a.png",
+        "url": "https://kapee87.github.io/myTinerary-nahuelMontaner/"
+    },
+    {
+        "id": "02",
+        "name": "ADN Web Solutions",
+        "content": "Web oficial en proceso para Comunidad/Cooperativa/Startup de Devs para desarrollar webs en equipo y conseguir experiencia, del cual formo parte y pude colaborar en el desarrollo de su Website.",
+        "preview": "./src/assets/projects/adn.png",
+        "url": "https://adnwebsolutions.github.io/ADN-Solutions/"
+    },
+    {
+        "id": "03",
+        "name": "Mélani Vera - Portfolio",
+        "content": "Portolio de trabajos de la artista Mélani Vera [en proceso aún]",
+        "preview": "https://melani-vera.vercel.app/assets/imgDefault-3ce2c21a.jpg",
+        "url": "https://melani-vera.vercel.app"
+    },
+    {
+        "id": "04",
+        "name": "Tesla Clon Práctica",
+        "content": "Clon de la web de tesla, utilizando astro y tailwind como práctica de aprendizaje",
+        "preview": "https://digitalassets.tesla.com/tesla-contents/image/upload/h_2400,w_2880,c_fit,f_auto,q_auto:best/Homepage-Model-Y-Global-Desktop",
+        "url": "https://main--golden-kleicha-1515c9.netlify.app/"
+    },
+    {
+        "id": "05",
+        "name": "Amazing Events",
+        "content": "Práctica para el curso de Frontend de Mindhub a través de Argentina Programa 4.0",
+        "preview": "./src/assets/projects/amazing.png",
+        "url": "https://kapee87.github.io/AmazingEvents_Montaner/"
+    },
+    {
+        "id": "06",
+        "name": "Barbería Alura",
+        "content": "Práctica para el curso de Oracle Next Education | Alura Latam",
+        "preview": "https://barberia-alura-nine.vercel.app/banner/banner.jpg",
+        "url": "https://barberia-alura-nine.vercel.app"
+    },
+    {
+        "id": "09",
+        "name": "Buscador de películas - Alkeflix",
+        "content": "Práctica para el skill up de Alkemy",
+        "preview": "./src/assets/projects/Alkeflix.png",
+        "url": "https://alkeflix-react.netlify.app"
+    },
+    {
+        "id": "10",
+        "name": "Movieland ",
+        "content": "Práctica de react, primer deploy en nettlify",
+        "preview": "https://m.media-amazon.com/images/M/MV5BMjQ4MzcxNDU3N15BMl5BanBnXkFtZTgwOTE1MzMxNzE@._V1_SX300.jpg",
+        "url": "https://movies-search-practice.netlify.app"
+    },
+    {
+        "id": "07",
+        "name": "Ozónica - Ozonizadores",
+        "content": "Sitio Web desarrollado por un equipo de ADN Web Solutions, aún en proceso.Formé parte del mismo, encargándome de varias secciones.",
+        "preview": "./src/assets/projects/ozonica.png",
+        "url": "https://adnwebsolutions.github.io/ozonica/#"
+    },
+    {
+        "id": "08",
+        "name": "Foro-Epica",
+        "content": "Proyecto desarrollado como parte del curso de EPICA a través del programa en Argentina con Server Side Rendering, MySql y Node.js",
+        "preview": "./src/assets/projects/epicaForum.png",
+        "url": "https://foro-epica.onrender.com/posts"
+    }
+]
