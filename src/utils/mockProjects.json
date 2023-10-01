@@ -31,7 +31,7 @@
         "id": "05",
         "name": "Amazing Events",
         "content": "Práctica para el curso de Frontend de Mindhub a través de Argentina Programa 4.0",
-        "preview": "https://imgbox.com/oFfszXXJ",
+        "preview": "https://images2.imgbox.com/01/74/oFfszXXJ_o.png",
         "url": "https://kapee87.github.io/AmazingEvents_Montaner/"
     },
     {
@@ -45,21 +45,21 @@
         "id": "07",
         "name": "Ozónica - Ozonizadores",
         "content": "Sitio Web desarrollado por un equipo de ADN Web Solutions, aún en proceso.Formé parte del mismo, encargándome de varias secciones.",
-        "preview": "./src/assets/projects/ozonica.png",
+        "preview": "https://images2.imgbox.com/44/93/JJsMnBLU_o.png",
         "url": "https://adnwebsolutions.github.io/ozonica/#"
     },
     {
         "id": "08",
         "name": "Foro-Epica",
         "content": "Proyecto desarrollado como parte del curso de EPICA a través del programa en Argentina con Server Side Rendering, MySql y Node.js",
-        "preview": "./src/assets/projects/epicaForum.png",
+        "preview": "https://images2.imgbox.com/57/5b/jn0FfvFs_o.png",
         "url": "https://foro-epica.onrender.com/posts"
     },
     {
         "id": "09",
         "name": "Buscador de películas - Alkeflix",
         "content": "Práctica para el skill up de Alkemy",
-        "preview": "https://imgbox.com/f9ErW4Fo",
+        "preview": "https://images2.imgbox.com/7c/3d/f9ErW4Fo_o.png",
         "url": "https://alkeflix-react.netlify.app"
     },
     {
