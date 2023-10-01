@@ -5,10 +5,15 @@ import { Link } from 'react-router-dom'
 function Navbar() {
     const [isNavOpen, setIsNavOpen] = useState(false)
 
-
     //Abre o cierra el menú de navegación
     const handleNavOpen = () => {
         setIsNavOpen(prev => !prev)
+    }
+    //scrollea al top cuando el usuario elije "inicio"
+    const handleNavLink = (e) => {
+        if (e.target.pathname == '/') {
+            window.scrollTo(0, 0)
+        }
     }
 
     return (
@@ -19,7 +24,7 @@ function Navbar() {
                  [&_li_a]:backdrop-blur-xl w-36 ${isNavOpen ? 'flex-wrap w-fit' : '[&>li>a]:hidden'}`}>
                     {sectionArray.map((item) => (
                         <li key={item.id}>
-                            <Link to={item.route} className="btn">
+                            <Link to={item.route} className="btn" onClick={handleNavLink}>
                                 {item.text}
                             </Link>
                         </li>
