@@ -42,20 +42,6 @@
         "url": "https://barberia-alura-nine.vercel.app"
     },
     {
-        "id": "09",
-        "name": "Buscador de películas - Alkeflix",
-        "content": "Práctica para el skill up de Alkemy",
-        "preview": "./src/assets/projects/Alkeflix.png",
-        "url": "https://alkeflix-react.netlify.app"
-    },
-    {
-        "id": "10",
-        "name": "Movieland ",
-        "content": "Práctica de react, primer deploy en nettlify",
-        "preview": "https://m.media-amazon.com/images/M/MV5BMjQ4MzcxNDU3N15BMl5BanBnXkFtZTgwOTE1MzMxNzE@._V1_SX300.jpg",
-        "url": "https://movies-search-practice.netlify.app"
-    },
-    {
         "id": "07",
         "name": "Ozónica - Ozonizadores",
         "content": "Sitio Web desarrollado por un equipo de ADN Web Solutions, aún en proceso.Formé parte del mismo, encargándome de varias secciones.",
@@ -68,5 +54,19 @@
         "content": "Proyecto desarrollado como parte del curso de EPICA a través del programa en Argentina con Server Side Rendering, MySql y Node.js",
         "preview": "./src/assets/projects/epicaForum.png",
         "url": "https://foro-epica.onrender.com/posts"
+    },
+    {
+        "id": "09",
+        "name": "Buscador de películas - Alkeflix",
+        "content": "Práctica para el skill up de Alkemy",
+        "preview": "./src/assets/projects/Alkeflix.png",
+        "url": "https://alkeflix-react.netlify.app"
+    },
+    {
+        "id": "10",
+        "name": "Movieland ",
+        "content": "Práctica de react, primer deploy en nettlify",
+        "preview": "https://m.media-amazon.com/images/M/MV5BMjQ4MzcxNDU3N15BMl5BanBnXkFtZTgwOTE1MzMxNzE@._V1_SX300.jpg",
+        "url": "https://movies-search-practice.netlify.app"
     }
 ]
