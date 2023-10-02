@@ -3,6 +3,7 @@ import Navbar from '../components/Navbar'
 import Footer from '../components/Footer'
 import { Outlet, useLocation, useNavigate } from 'react-router-dom'
 import sectionArray from '../utils/sectionArray'
+import handleScrollTop from '../utils/scrollTop'
 
 
 function Layout() {
@@ -25,7 +26,9 @@ function Layout() {
         } else {
             // De lo contrario, avanza a la siguiente sección
             navigate(sectionArray[currentSection].route);
+
         }
+        handleScrollTop()
     }
     const handlePrevSection = () => {
         // Verifica si estás en la última sección
@@ -36,6 +39,7 @@ function Layout() {
             // De lo contrario, avanza a la siguiente sección
             navigate(sectionArray[currentSection - 2].route);
         }
+        handleScrollTop()
     }
 
     return (

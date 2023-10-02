@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import sectionArray from '../utils/sectionArray'
 import { Link } from 'react-router-dom'
+import handleScrollTop from '../utils/scrollTop'
 
 function Navbar() {
     const [isNavOpen, setIsNavOpen] = useState(false)
@@ -10,13 +11,7 @@ function Navbar() {
         setIsNavOpen(prev => !prev)
     }
     //scrollea al top cuando el usuario elije "inicio"
-    const handleNavLink = (e) => {
-        console.log(e.target.pathname);
-        if (e.target.pathname == '/') {
-            console.log('doing scroll');
-            window.scrollTo(0, 0)
-        }
-    }
+
 
     return (
         <header className={`${isNavOpen ? 'top-0 md:top-10 [&_nav_ul]:w-fit' : '-top-20 md:-top-16'} w-full fixed transition-all duration-1000 z-50 `}>
@@ -28,7 +23,7 @@ function Navbar() {
                  `}>
                     {sectionArray.map((item) => (
                         <li key={item.id}>
-                            <Link to={item.route} className="btn" onClick={handleNavLink}>
+                            <Link to={item.route} className="btn" onClick={handleScrollTop}>
                                 {item.text}
                             </Link>
                         </li>
