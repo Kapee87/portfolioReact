@@ -14,12 +14,13 @@ function Navbar() {
 
 
     return (
-        <header className={`${isNavOpen ? 'top-0 md:top-10 [&_nav_ul]:w-fit' : '-top-20 md:-top-16'} w-full fixed transition-all duration-1000 z-50 `}>
+        <header className={`${isNavOpen ? 'top-2 md:top-10 [&_nav_ul]:w-fit' : '-top-14 md:-top-14'} w-full fixed transition-all duration-1000 z-50 `}>
             <nav>
                 <ul
-                    className={`flex mx-auto rounded-[40px]  md:p-4 text-slate-300 justify-center 
-                 [&_li_a]:backdrop-blur-xl w-36 ${isNavOpen ? 'flex-wrap w-fit' : '[&>li>a]:hidden'}
-                 [&_li_a]:text-xs [&_li_a]:sm:text-base [&_li_a]:p-1
+                    className={`flex mx-auto rounded-2xl md:p-4 text-slate-300 justify-center gap-1 md:gap-3 items-center
+                    [&_li]:rounded-lg [&_li]:outline [&_li]:outline-indigo-700 [&_li]:outline-2 :outline-offset-2 [&_li]:shadow-2xl [&_li]:shadow-indigo-600    
+                [&_li_a]:backdrop-blur-xl w-36 ${isNavOpen ? 'flex-wrap w-fit' : '[&>li>a]:hidden'}
+                [&_li_a]:text-[.65rem] [&_li_a]:sm:text-sm [&_li_a]:p-1
                  `}>
                     {sectionArray.map((item) => (
                         <li key={item.id}>
@@ -36,8 +37,8 @@ function Navbar() {
                     {
                         isNavOpen
                             ?
-                            <li className='btn' onClick={handleNavOpen}>
-                                <p>❌</p>
+                            <li onClick={handleNavOpen}>
+                                <p className='btn'>❌</p>
                             </li>
                             :
                             <li
