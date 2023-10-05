@@ -19,7 +19,7 @@ function Navbar() {
                 <ul
                     className={`flex mx-auto rounded-2xl md:p-4 text-slate-300 justify-center gap-1 md:gap-3 items-center
                     [&_li]:rounded-lg [&_li]:outline [&_li]:outline-indigo-700 [&_li]:outline-2 :outline-offset-2 [&_li]:shadow-2xl [&_li]:shadow-indigo-600    
-                [&_li_a]:backdrop-blur-xl w-36 ${isNavOpen ? 'flex-wrap w-fit' : '[&>li>a]:hidden'}
+                [&_li_a]:backdrop-blur-xl max-w-full w-36 ${isNavOpen ? 'flex-wrap w-fit' : '[&>li>a]:hidden'}
                 [&_li_a]:text-[.65rem] [&_li_a]:sm:text-sm [&_li_a]:p-1
                  `}>
                     {sectionArray.map((item) => (
