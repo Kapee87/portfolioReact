@@ -1,5 +1,12 @@
 [
     {
+        "id": "12",
+        "name": "La Rosa de los Vientos | Editorial Musical",
+        "content": "Primer mvp de sitio estático para ofrecer información y datos de contacto de una editorial musical. Proyecto realizado con React, tailwind + daisyui de forma independiente.",
+        "preview": "https://images2.imgbox.com/7d/64/ptELK2ju_o.png",
+        "url": "https://larosadelosvientos.netlify.app"
+    },
+    {
         "id": "11",
         "name": "Imagina | Escuela de verano",
         "content": "Este proyecto es un trabajo realizado en grupo, es la página de información de una escuela de verano para niñ@s. Tuve la dicha de ser parte del equipo en Adn Solutions encargado de realizar este proyecto ",
